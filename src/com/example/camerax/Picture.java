@@ -27,14 +27,14 @@ import com.example.camera.R;
 import com.example.camerax.event.MulitPointTouchListener;
 
 public class Picture extends Activity {
-
+.Builder builder;
+   Intent intent;
 	public static boolean isClicked=false;
 	public ImageView picture;
 	ZoomControls zoom;
 	Bitmap bitmap;
 	ImageButton finger_control;
-	public AlertDialog.Builder builder;
-   Intent intent;
+	public AlertDialog
    String picpath;
 	
 

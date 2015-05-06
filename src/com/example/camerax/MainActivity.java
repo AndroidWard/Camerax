@@ -62,7 +62,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
 
 	private Handler timerUpdateHandler;
 	private boolean timerRunning = false;
-
+    
 	// private Runnable timerUpdateTask = new Runnable() {
 	// public void run() {
 	// if (currentTime > 1) {
